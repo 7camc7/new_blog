@@ -1,0 +1,49 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead mast-about " style="background-image: url({{ url_for('static', filename='img/IMG_3332.JPG')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me.</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+
+    <div class="row" style="text-align: left">
+      <div class="col-lg-8" style="padding: 0% 10%">
+        <p>Name: Claudia Church</p>
+        <p>Nationality: British</p>
+        <p>Profession: Web Developer</p>
+        <p>Where you'll find me: anywhere with a view and wifi</p>
+        <p>Hobbies: yoga, walking, scuba diving, writing, eating</p>
+        <p>About my blog: it will continue to be a work in progress whilst I continue on my web development journey. But most of all, it's a written reflection of a traveler's thought that I want to share...  </p>
+      </div>
+        <div class="col-lg-4">
+          <div class="row">
+              <img class="about-pic" src="{{ url_for('static', filename='img/yoga.jpg')}}">
+          </div>
+          <div class="row">
+              <img class="walking-pic" src="{{ url_for('static', filename='img/mountainwalk.jpg')}}">
+          </div>
+          <div class="row">
+              <img class="diving-pic" src="{{ url_for('static', filename='img/diiving.jpg')}}">
+          </div>
+
+          </div>
+
+
+
+      </div>
+    </div>
+
+
+  <hr>
+
+  {% include "footer.html" %}
