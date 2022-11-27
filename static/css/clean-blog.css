@@ -5,24 +5,7 @@
  */
 
 .about-pic{
-    width: 40%;
-    position: absolute;
-    left: -60%;
-    clip-path: circle();
-}
-
-.diving-pic {
-    width: 55%;
-    position: absolute;
-    left: -30%;
-    top: 40%;
-    clip-path: circle();
-}
-
-.walking-pic {
-    width: 40%;
-    position: absolute;
-    left: 15%;
+    width: 100%;
     clip-path: circle();
 }
 
@@ -34,7 +17,7 @@
     background-size: 100% 100%;
     flex: 1;
     height: 100%;
-   }
+}
 
 .content {
   flex: 1;
